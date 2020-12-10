@@ -124,7 +124,7 @@ Math.floor(5.5)  // 5, floor always rounds down
 
 ---
 
-## Document
+## Document elements
 
 Given an existing document element built with these instructions:
 
