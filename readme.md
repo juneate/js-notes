@@ -197,7 +197,8 @@ ele.getAttribute(`title`)                 // Hello world
 
 ```javascript
 let handleClick = function(event) { 
-   // handler function
+   // An object holding information about the event
+   console.log(event)
 }
 
 ele.addEventListener('click', handleClick)
