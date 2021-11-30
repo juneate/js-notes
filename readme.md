@@ -2,9 +2,15 @@
 
 ## Miscellaneous
 
+### Comments
 - Single-line comments: `// comment!`
 - Multi-line comments: `/* comment! */`
 - Browser "console" testing messages: ``console.log(`hello world`)``
+
+### Casing
+- Kebob casing: `naming-things-is-tricky`  (preferred by CSS and the file system)
+- Snake casing: `naming_things_is_tricky`
+- Camel casing: `namingThingsIsTricky` (preferred by JavaScript)
 
 ---
 
