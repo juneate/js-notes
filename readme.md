@@ -205,7 +205,9 @@ if ( condition ) {
 }
 ```
 
-Other condition evaluation techniques: ternary, case/switch statements
+Other condition evaluation techniques of note:
+  - [ternary](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+  - [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ### Comparison operators
 
@@ -213,6 +215,26 @@ Other condition evaluation techniques: ternary, case/switch statements
 - `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to)
 - Equivalency (values mean the same thing): `==` (equal), `!=` (not equal), 
 - Identical (both value _and_ type): `===` (identical), `!==` (not identical)
+
+### Logical operators
+*Logical operators* are binary operators that compare their **Boolean** *left* and *right* value (or variable), resulting in a single `Boolean`, used to combine multiple conditions together into a single statement:
+- `&&` ("and"): will result in `false` if either side is `false`
+- `||` ("or"): will only result in `false` if both sides are `false`
+
+```js
+const myCurrentAge = 18, isCitizen = true
+if (myCurrentAge >= 18 && isCitizen === true) {
+  console.log(`You may vote in the election!`)
+}
+```
+
+The "not" operator, expressed by a `!` symbol before a Boolean value or variable, is a unary logical operator that will flip the bit
+
+```js
+true && false  // false
+true || false  // true
+!true          // false
+```
 
 ---
 
