@@ -7,11 +7,6 @@
 - Multi-line comments: `/* comment! */`
 - Browser "console" testing messages: ``console.log(`hello world`)``
 
-### Casing
-- Kebob casing: `naming-things-is-tricky`  (preferred by CSS and the file system)
-- Snake casing: `naming_things_is_tricky`
-- Camel casing: `namingThingsIsTricky` (preferred by JavaScript)
-
 ---
 
 ## Data types
@@ -52,6 +47,13 @@ Variables hold a single value. Use `var`, `let` or `const` (constant: value can 
 let name
 name = `Ada Lovelace`
 ```
+
+### Casing
+- Kebob casing: `naming-things-is-tricky`  (preferred by CSS and the file system)
+- Snake casing: `naming_things_is_tricky`
+- Camel casing: `namingThingsIsTricky` **(preferred by JavaScript)**
+
+Variable names may contain a numerical digit (0-9) in any place other than the first character, as well as a `$` and/or `_` special character at any position.
 
 ---
 
